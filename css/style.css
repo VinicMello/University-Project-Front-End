@@ -3,15 +3,67 @@
     padding: 0;
 }
 
-.container_principal {
+:root {
+    /* #45C4B0
+    #9AEBA3 */
+    /*variáveis no css*/
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #FFFFFF;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3C92FA;
+}
+
+.style_header_head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
+
+    border: 2px solid black;
+}
+
+.style_header_body {
+    height: 8vh;
+
+    border: solid 1px blue;
+}
+
+.style_header_body_secundario {
     border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.style_header_body_secundario_parte1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style_header_body_secundario_parte2 {
+    border: 1px solid black;
+    display: flex;
+    width: 50%;
+}
+
+.style_header_body_secundario_parte2_parte1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.container_principal {
     width: 100%;
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}   
+}
 
 .container_secundario {
     border: 1px solid black;
-}   
+}
