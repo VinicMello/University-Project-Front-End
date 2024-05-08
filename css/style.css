@@ -1,29 +1,24 @@
+/* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
     font-family: var(--font-default), sans-serif;
 }
 
-body {
-    background-color: #f2f2f2;
-}
-
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
+/* Variáveis de cores e fontes */
 :root {
     --cor-de-fundo: #f2f2f2;
-    ;
     --cor-principal: #009688;
     --cor-branca: #ffffff;
     --cor-borda: #D9D9D9;
     --cor-fonte-destaque: #FF5F5D;
     --cor-fonte-opcoes: #747E7E;
     --cor-preta: black;
-    --font-default: "Roboto"
+    --font-default: "Roboto";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
 }
 
 .header_top {
@@ -90,6 +85,7 @@ body {
     width: 30px;
 }
 
+/* Estilos do corpo principal */
 .main-body {
     display: flex;
     justify-content: center;
@@ -165,6 +161,7 @@ body {
     background-color: var(--cor-branca);
     padding: 10px;
     border: 1.5px solid var(--cor-borda);
+    border-radius: 8px;
 }
 
 .about-us-section {
@@ -220,4 +217,40 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.about-stores-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.about-stores-section img {
+    width: 350px;
+}
+
+.about-stores-description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.about-stores-description h4 {
+    color: var(--cor-fonte-destaque);
+}
+
+.about-stores-description ul li {
+    margin-left: 30px;
+}
+
+.about-products-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-products-section img {
+    width: 100px;
 }
