@@ -12,34 +12,63 @@
     <title>Meu amigo cão - Petshop</title>
 </head>
 
-<header>
-    <h1>Meu amigo cão - PetShop</h1>
-</header>
-
 <body>
-    <p><a href="index.html">Home</a></p>
-    <div>
-        <h1>Boletim Mensal</h1>
-    </div>
-    <div>
-        <h2>Assine já!</h2>
-        <div>
-            <p>Fazendo sua assinatura, você receberá mensalmente informações sobre nossos produtos, serviços, eventos e
-                descontos</p>
 
-            <form>
+    <header>
+        <div class="header_top">
+            <h3>Meu amigo cão, Os serviços que você precisa para o seu pet!</h3>
+        </div>
 
-                <label for="nome"><strong>Nome:</strong></label>
-                <input type="text" id="nome" name="nome">
+        <div class="header_main">
+            <div class="header_main_logo_section">
+                <img src="imgs/meu_amigo_cao_oficial.png" alt="logo oficial meu amigo cão">
+                <div class="header_main_logo_section_title">
+                    <h1>Meu Amigo Cão</h1>
+                    <p>Petshop</p>
+                </div>
+            </div>
 
-                <label for="email"><strong>E-mail:</strong></label>
-                <input type="email" id="email" name="email">
+            <div class="header_main_options_section">
+                <div class="header_main_options_section_info">
+                    <img src="imgs/atendimento.png" alt="imagem atendimento">
+                    <a href="#">Atendimento</a>
+                </div>
+                <div class="header_main_options_section_info">
+                    <img src="imgs/usuario.png" alt="imagem usuario">
+                    <a href="#">Login/Acesso</a>
+                </div>
+                <div class="header_main_options_section_info">
+                    <img src="imgs/carrinho.png" alt="imagem carrinho">
+                    <a href="#">Seu Carrinho</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-                <input type="submit" value="Enviar">
+    <div class="main-body-content">
+        <div class="return-to-home">
+            <p><a href="index.html"> Voltar | Home > Quem Somos</a></p>
+        </div>
+        <div class="content-centralized">
+            <div class="about-boletim">
+                <h1>Boletim Mensal</h1>
+                <h2>Assine já!</h2>
 
-            </form>
+                <p>Fazendo sua assinatura, você receberá mensalmente informações sobre nossos produtos, serviços, eventos e descontos</p>
+
+                <form>
+                    <label for="nome"><strong>Nome:</strong></label>
+                    <input type="text" id="nome" name="nome">
+                    
+                    <label for="email"><strong>E-mail:</strong></label>
+                    <input type="email" id="email" name="email">
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
         </div>
     </div>
+
 </body>
 
 </html>

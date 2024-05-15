@@ -13,117 +13,152 @@
 </head>
 
 <header>
-    <h1>Meu amigo cão - PetShop</h1>
+    <div class="header_top">
+        <h3>Meu amigo cão, Os serviços que você precisa para o seu pet!</h3>
+    </div>
+
+    <div class="header_main">
+        <div class="header_main_logo_section">
+            <img src="imgs/meu_amigo_cao_oficial.png" alt="logo oficial meu amigo cão">
+            <div class="header_main_logo_section_title">
+                <h1>Meu Amigo Cão</h1>
+                <p>Petshop</p>
+            </div>
+        </div>
+
+        <div class="header_main_options_section">
+            <div class="header_main_options_section_info">
+                <img src="imgs/atendimento.png" alt="imagem atendimento">
+                <a href="#">Atendimento</a>
+            </div>
+            <div class="header_main_options_section_info">
+                <img src="imgs/usuario.png" alt="imagem usuario">
+                <a href="#">Login/Acesso</a>
+            </div>
+            <div class="header_main_options_section_info">
+                <img src="imgs/carrinho.png" alt="imagem carrinho">
+                <a href="#">Seu Carrinho</a>
+            </div>
+        </div>
+    </div>
 </header>
 
 <body>
-    <p><a href="index.html">Home</a></p>
-    <h1>Agendamento para banho e tosa</h1>
-    <h3>Faça o seu agendamento com pelo menos 48 horas de antecedência</h3>
+    <div class="main-body-content">
+        <div class="return-to-home">
+            <p><a href="index.html"> Voltar | Home > Quem Somos</a></p>
+        </div>
+        <div class="content-centralized">
+            <div class="about-fill-in">
+                <h1>Agendamento para banho e tosa</h1>
+                <h3>Faça o seu agendamento com pelo menos 48 horas de antecedência</h3>
+                <form action="">
+                    <fieldset>
+                        <legend>Informações do dono no animal</legend>
+                        <div class="about-fill-in-div">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite o nome completo do dono">
+                        </div>
+                        <div class="about-fill-in-div">
+                            <label for="endereco">Endereço:</label>
+                            <input type="text" id="endereco" name="endereco" placeholder="Digite o endereço completo">
+                        </div>
+                        <div class="about-fill-in-div">
+                            <label for="cep">CEP:</label>
+                            <input type="text" id="cep" name="cep" placeholder="Digite o CEP">
+                        </div>
+                        <div class="about-fill-in-div">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" placeholder="Digite o E-mail">
+                        </div>
+                        <div class="about-fill-in-div">
+                            <label for="tel">Tel/Cel:</label>
+                            <input type="text" id="telefone" name="telefone" placeholder="(XXX)99999-9999">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Informações do animal</legend>
+                        <div class="about-fill-in-div">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome">
+                        </div>
+                        <div class="about-fill-in-div">
+                            <label for="">Porte do Cão:</label>
 
-    <form action="">
-        <fieldset>
-            <legend>Informações do dono no animal</legend>
+                            <label>
+                                <input type="radio" id="nome" name="nome"> Pequeno
+                            </label>
 
-            <p>Identificação do dono do animal</p>
-            <div>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" placeholder="Digite o nome completo do dono">
-            </div>
-            <div>
-                <label for="endereco">Endereço:</label>
-                <input type="text" id="endereco" name="endereco" placeholder="Digite o endereço completo">
-            </div>
-            <div>
-                <label for="cep">CEP:</label>
-                <input type="text" id="cep" name="cep" placeholder="Digite o CEP">
-            </div>
-            <div>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="Digite o E-mail">
-            </div>
-            <div>
-                <label for="tel">Tel/Cel:</label>
-                <input type="text" id="telefone" name="telefone" placeholder="(XXX)99999-9999">
-            </div>
-        </fieldset>
-        <fieldset>
-            <legend>Informações do animal</legend>
-            <div>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome">
-            </div>
-            <div>
-                <label for="">Porte do Cão:</label>
+                            <label>
+                                <input type="radio" id="nome" name="nome"> Médio
+                            </label>
 
-                <label>
-                    <input type="radio" id="nome" name="nome"> Pequeno
-                </label>
+                            <label>
+                                <input type="radio" id="nome" name="nome"> Grande
+                            </label>
+                        </div>
+                        <div class="about-fill-in-div">
+                            <label>
+                                Tipo de tosa:
+                                <select id="opcoes" name="opcoes">
+                                    <option value="opcao1">Opção 1</option>
+                                    <option value="opcao2">Opção 2</option>
+                                    <option value="opcao3">Opção 3</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="about-fill-in-div">
+                            <label>
+                                Observação:
+                                <textarea rows="2" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Horário - Obs: Não atendemos aos domingos e às segundas-feiras</legend>
+                        <div class="about-fill-in-div">
+                            <p>Indique os dias da semana de sua preferência: </p>
+                            <label>
+                                <input type="radio" id="nome" name="nome"> Terça-Feira
+                            </label>
 
-                <label>
-                    <input type="radio" id="nome" name="nome"> Médio
-                </label>
+                            <label>
+                                <input type="radio" id="nome" name="nome"> Quarta-Feira
+                            </label>
 
-                <label>
-                    <input type="radio" id="nome" name="nome"> Grande
-                </label>
+                            <label>
+                                <input type="radio" id="nome" name="nome"> Quinta-Feira
+                            </label>
+
+                            <label>
+                                <input type="radio" id="nome" name="nome"> Sexta-Feira
+                            </label>
+
+                            <label>
+                                <input type="radio" id="nome" name="nome"> Sabado
+                            </label>
+                        </div>
+                        <div class="about-fill-in-div">
+                            <label for="">
+                                Primeira opção de horário:
+                                <input type="time">
+                            </label>
+                        </div>
+                        <div class="about-fill-in-div">
+                            <label for="">
+                                Segunda opção de horário:
+                                <input type="time">
+                            </label>
+                        </div>
+                    </fieldset>
+                </form>
+                <div class="about-fill-in-submit">
+                    <input type="submit" value="Enviar">
+                </div>
             </div>
-            <div>
-                <label>
-                    Tipo de tosa:
-                    <select id="opcoes" name="opcoes">
-                        <option value="opcao1">Opção 1</option>
-                        <option value="opcao2">Opção 2</option>
-                        <option value="opcao3">Opção 3</option>
-                    </select>
-                </label>
-            </div>
-            <div>
-                <label>
-                    Observação:
-                    <textarea rows="2" style="width: 26em" id="experiencia" name="experiencia"></textarea>
-                </label>
-            </div>
-        </fieldset>
-        <fieldset>
-            <legend>Horário - Obs: Não atendemos aos domingos e às segundas-feiras</legend>
-            <div>
-                <p>Indique os dias da semana de sua preferência: </p>
-                <label>
-                    <input type="radio" id="nome" name="nome"> Terça-Feira
-                </label>
-
-                <label>
-                    <input type="radio" id="nome" name="nome"> Quarta-Feira
-                </label>
-
-                <label>
-                    <input type="radio" id="nome" name="nome"> Quinta-Feira
-                </label>
-
-                <label>
-                    <input type="radio" id="nome" name="nome"> Sexta-Feira
-                </label>
-
-                <label>
-                    <input type="radio" id="nome" name="nome"> Sabado
-                </label>
-            </div>
-            <div>
-                <label for="">
-                    Primeira opção de horário:
-                    <input type="time">
-                </label>
-            </div>
-            <div>
-                <label for="">
-                    Segunda opção de horário:
-                    <input type="time">
-                </label>
-            </div>
-        </fieldset>
-
-    </form>
-    <input type="submit" value="Enviar">
+        </div>
+    </div>
 
 </body>
+
+</html>
