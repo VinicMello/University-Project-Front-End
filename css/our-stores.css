@@ -1,0 +1,26 @@
+.about-stores-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.about-stores-section img {
+    width: 350px;
+}
+
+.about-stores-description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.about-stores-description h4 {
+    color: var(--cor-fonte-destaque);
+}
+
+.about-stores-description ul li {
+    margin-left: 30px;
+}

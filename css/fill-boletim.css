@@ -1,0 +1,39 @@
+.about-boletim {
+    padding: 10px;
+}
+
+.about-boletim p {
+    margin-bottom: 15px;
+}
+
+.about-boletim h1,
+.about-boletim h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.about-boletim form {
+    padding: 10px;
+}
+
+.about-boletim input[type="text"],
+.about-boletim input[type="email"] {
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.about-boletim input[type="submit"] {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 7px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

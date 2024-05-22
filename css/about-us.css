@@ -1,0 +1,21 @@
+.about-us-section {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about-us-section p {
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+.about-us-section h1 {
+    color: var(--cor-fonte-destaque);
+    font-size: 25px;
+    padding: 12px 0px 12px 0px;
+}
+
+.about-us-section h3 {
+    color: var(--cor-fonte-destaque);
+    font-size: 25px;
+    padding: 10px 0px 10px 0px;
+}
