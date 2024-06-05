@@ -12,55 +12,95 @@
     <title>Meu amigo cão - Petshop</title>
 </head>
 
-<header>
-    <div class="header_top">
-        <h3>Meu amigo cão, Os serviços que você precisa para o seu pet!</h3>
-    </div>
-
-    <div class="header_main">
-        <div class="header_main_logo_section">
-            <img src="imgs/header/meu_amigo_cao_oficial.png" alt="logo oficial meu amigo cão">
-            <div class="header_main_logo_section_title">
-                <h1>Meu Amigo Cão</h1>
-                <p>Petshop</p>
-            </div>
-        </div>
-
-        <div class="header_main_options_section">
-            <div class="header_main_options_section_info">
-                <img src="imgs/header/atendimento.png" alt="imagem atendimento">
-                <a href="#">Atendimento</a>
-            </div>
-            <div class="header_main_options_section_info">
-                <img src="imgs/header/usuario.png" alt="imagem usuario">
-                <a href="sign-in.html">Login/Acesso</a>
-            </div>
-            <div class="header_main_options_section_info">
-                <img src="imgs/header/carrinho.png" alt="imagem carrinho">
-                <a href="#">Seu Carrinho</a>
-            </div>
-        </div>
-    </div>
-</header>
-
 <body>
+    <header>
+        <div class="header-top">
+            <h3>Meu amigo cão, Os serviços que você precisa para o seu pet!</h3>
+        </div>
+
+        <div class="header-main">
+            <div class="header-main-logo-section">
+                <img src="imgs/header/meu_amigo_cao_oficial.png" alt="logo oficial meu amigo cão">
+                <div class="header-main-logo-section-title">
+                    <h1>Meu Amigo Cão</h1>
+                    <p>Petshop</p>
+                </div>
+            </div>
+            <div class="header-main-input-search">
+                <input type="text" id="#" name="#" placeholder="O que você procura?">
+                <img src="imgs/main/search.png" alt="#">
+            </div>
+            <div class="header-main-options-section">
+                <div class="header-main-options-section-info">
+                    <img src="imgs/header/atendimento.png" alt="imagem atendimento">
+                    <a href="#">Atendimento</a>
+                </div>
+                <div class="header-main-options-section-info">
+                    <img src="imgs/header/usuario.png" alt="imagem usuario">
+                    <a href="sign-in.html">Entre ou Cadastra-se</a>
+                </div>
+                <div class="header-main-options-section-info">
+                    <img src="imgs/header/carrinho.png" alt="imagem carrinho">
+                    <a href="#">Seu Carrinho</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="nav-item">
+                <img src="imgs/main/quem-somos.png" alt="#">
+                <a href="about-us.html">Quem Somos</a>
+            </div>
+            <div class="nav-item">
+                <img src="imgs/main/nossas-lojas.png.png" alt="#">
+                <a href="our-stores.html">Nossas lojas</a>
+            </div>
+            <div class="nav-item">
+                <img src="imgs/main/banho-tosa.png" alt="#">
+                <a href="wash-and-cut.html">Banho e Tosa</a>
+            </div>
+            <div class="nav-item">
+                <img src="imgs/main/produtos.png" alt="#">
+                <a href="sell-products.html">Produtos</a>
+            </div>
+            <div class="nav-item">
+                <img src="imgs/main/curiosidades.png" alt="#">
+                <a href="curiosity.html">Curiosidades</a>
+            </div>
+        </div>
+    </header>
 
     <div class="main-body">
+
         <div class="content-container">
-            <ul>
-                <li><a href="about-us.html">Quem Somos</a></li>
-                <li><a href="our-stores.html">Nossas lojas</a></li>
-                <li><a href="wash-and-cut.html">Banho e Tosa</a></li>
-                <li><a href="sell-products.html">Produtos</a></li>
-                <li><a href="curiosity.html">Curiosidades</a></li>
-            </ul>
-            <img src="imgs/main/labrador-apontando.png" alt="">
+
+            <div>
+                <h3>CONHEÇA NOSSA LINHA DE PETISCOS</h3>
+            </div>
+
+            <img src="imgs/main/cachorro-e-gato-com-fundo.jpg" alt="#">
+            
         </div>
-        <div class="content-container-bottom">
-            <p><a href="boletim.html">Assine nosso boletim mensal</a></p>
+
+        <div>
+
         </div>
+
     </div>
 
+    <div class="container-newsletter">
+        <div class="about-newsletter">
+            <h1>Newsletter</h1>
+            <form>
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="email"><strong>E-mail:</strong></label>
+                <input type="email" id="email" name="email">
+
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
