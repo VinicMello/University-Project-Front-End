@@ -1,16 +1,16 @@
 .about-products-section {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .about-products-section caption {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .about-products-section img {
-    width: 100px;
+  width: 100px;
 }
 
 .about-products-section table {
-    margin-top: 10px;
+  margin-top: 10px;
 }

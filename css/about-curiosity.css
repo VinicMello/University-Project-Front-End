@@ -1,39 +1,40 @@
 .about-curiosity {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--cor-branca);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--cor-branca);
+  padding: 20px;
 }
 
 .about-curiosity h1 {
-    color: var(--cor-fonte-destaque);
-    font-size: 40px;
-    padding: 10px 0px 10px 0px;
+  color: var(--cor-fonte-destaque);
+  font-size: 40px;
+  padding: 10px 0;
 }
 
 .about-curiosity h3,
 .about-curiosity h4 {
-    padding: 15px;
+  padding: 15px;
 }
 
 .about-curiosity dd {
-    margin: 8px 0px 8px 20px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  margin: 8px 0 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .about-curiosity dd li {
-    padding: 4px;
+  padding: 4px;
 }
 
 .about-curiosity img {
-    width: 25%;
+  width: 25%;
 }
 
 .imgs-curiosity {
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }

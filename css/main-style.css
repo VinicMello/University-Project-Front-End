@@ -17,10 +17,12 @@
   --font-default: "Roboto";
 }
 
+/* Corpo da página */
 body {
   background-color: var(--cor-de-fundo);
 }
 
+/* Cabeçalho (Header) */
 .header-top {
   display: flex;
   align-items: center;
@@ -28,8 +30,8 @@ body {
   height: 4vh;
   font-size: 20px;
   background-color: var(--cor-principal);
-  padding: 7px;
   color: var(--cor-branca);
+  padding: 7px;
 }
 
 .header-main {
@@ -120,37 +122,14 @@ body {
   width: 40px;
 }
 
-.nav-item {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  font-size: 19px;
-}
-
-.nav-item a {
-  text-decoration: none;
-  color: var(--cor-branca);
-}
-
+/* Corpo centralizado das outras páginas */
 .main-body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 60vh;
-}
-
-.content-container {
-  background-color: var(--cor-principal);
-  width: 60%;
-  height: 70%;
-  border-radius: 25px;
-}
-
-.content-container img {
-  width: 80%;
-  height: 80%;
-  border-radius: 15px; 
+  margin-bottom: 30px;
 }
 
 .main-body-content {
@@ -168,28 +147,68 @@ body {
   border-radius: 8px;
 }
 
-.promo {
+.return-to-home {
+  width: 70%;
+  margin-top: 10px;
+  background-color: var(--cor-branca);
+  padding: 10px;
+  border-radius: 8px;
+  border: 1.5px solid var(--cor-borda);
+}
+
+/* Conteúdo da página */
+.content-container {
+  background-color: var(--cor-principal);
+  width: 60%;
+  height: 70%;
+  border-radius: 25px 25px 0px 25px;
+}
+
+.content-container img {
+  border-radius: 25px 0px 0px 25px;
+}
+
+.promotion {
   display: flex;
   width: 100%;
   height: 100%;
+  margin-bottom: 6px;
 }
 
-.promo-frete-gratis {
+.promotion-delivery-free {
   border: 1px solid black;
-  font-size: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
 }
 
-.promo-footter{
+.promotion-footter {
   border: 1px solid black;
   width: 100%;
   height: 7vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
-.promo-footter img{
-  width: 45%;
+.promotion-footter-divs {
+  border: 1px solid red;
+  border-radius: 15px 15px 0px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  font-size: 13.5px;
+  padding: 6px;
+  gap: 7px;
+  background-color: var(--cor-principal);
+}
+
+.promotion-footter-divs img {
+  width: 20%;
 }
 
 .container-newsletter {
