@@ -1,159 +1,210 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main-style.css">
-    <link rel="stylesheet" href="css/products.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main-style.css" />
+    <link rel="stylesheet" href="css/products.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Meu amigo cão - Petshop</title>
-</head>
+  </head>
 
-<header>
-    <div class="header_top">
+  <body>
+    <header>
+      <div class="header-top">
         <h3>Meu amigo cão, Os serviços que você precisa para o seu pet!</h3>
-    </div>
+      </div>
 
-    <div class="header_main">
-        <div class="header_main_logo_section">
-            <img src="imgs/header/meu_amigo_cao_oficial.png" alt="logo oficial meu amigo cão">
-            <div class="header_main_logo_section_title">
-                <h1>Meu Amigo Cão</h1>
-                <p>Petshop</p>
-            </div>
+      <div class="header-main">
+        <div class="header-main-logo-section">
+          <img
+            src="imgs/header/h-meu_amigo_cao_oficial.png"
+            alt="logo oficial meu amigo cão"
+          />
+          <div class="header-main-logo-section-title">
+            <h1>Meu Amigo Cão</h1>
+            <p>Petshop</p>
+          </div>
         </div>
-
-        <div class="header_main_options_section">
-            <div class="header_main_options_section_info">
-                <img src="imgs/header/atendimento.png" alt="imagem atendimento">
-                <a href="#">Atendimento</a>
-            </div>
-            <div class="header_main_options_section_info">
-                <img src="imgs/header/usuario.png" alt="imagem usuario">
-                <a href="sign-in.html">Login/Acesso</a>
-            </div>
-            <div class="header_main_options_section_info">
-                <img src="imgs/header/carrinho.png" alt="imagem carrinho">
-                <a href="#">Seu Carrinho</a>
-            </div>
+        <div class="header-main-input-search">
+          <input
+            type="text"
+            id="#"
+            name="#"
+            placeholder="O que você procura?"
+          />
+          <img src="imgs/header/h-search.png" alt="#" />
         </div>
-    </div>
-</header>
+        <div class="header-main-options-section">
+          <div class="header-main-options-section-info">
+            <img src="imgs/header/h-atendimento.png" alt="imagem atendimento" />
+            <a href="#">Atendimento</a>
+          </div>
+          <div class="header-main-options-section-info">
+            <img src="imgs/header/h-usuario.png" alt="imagem usuario" />
+            <a href="sign-in.html">Entre ou Cadastra-se</a>
+          </div>
+          <div class="header-main-options-section-info">
+            <img src="imgs/header/h-carrinho.png" alt="imagem carrinho" />
+            <a href="#">Seu Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="nav-item">
+          <img src="imgs/main/m-about-us.png" alt="#" />
+          <a href="about-us.html">Quem Somos</a>
+        </div>
+        <div class="nav-item">
+          <img src="imgs/main/m-our-stores.png" alt="#" />
+          <a href="our-stores.html">Nossas lojas</a>
+        </div>
+        <div class="nav-item">
+          <img src="imgs/main/m-wash-and-cut.png" alt="#" />
+          <a href="wash-and-cut.html">Banho e Tosa</a>
+        </div>
+        <div class="nav-item">
+          <img src="imgs/main/m-products.png" alt="#" />
+          <a href="sell-products.html">Produtos</a>
+        </div>
+        <div class="nav-item">
+          <img src="imgs/main/m-curiosity.png" alt="#" />
+          <a href="curiosity.html">Curiosidades</a>
+        </div>
+      </div>
+    </header>
 
-<body>
     <div class="main-body-content">
-        <div class="return-to-home">
-            <p><a href="index.html"> Voltar | Home > Quem Somos</a></p>
-        </div>
-        <div class="content-centralized">
-            <div class="about-products-section">
-                <table border="1">
-                    <caption>Ração</caption>
-                    <thead>
-                        <tr>
-                            <th>Porte</th>
-                            <th colspan="2">Marca</th>
-                            <th>Preço</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td rowspan="2">Pequeno</td>
-                            <td>Vestibulum</td>
-                            <td><img src="imgs/products/pq_emb_pequeno1.png" alt=""></td>
-                            <td>R$ 5,00</td>
-                        </tr>
-                        <tr>
-                            <td>Nunc</td>
-                            <td><img src="imgs/products/pq_emb_pequeno2.png" alt=""></td>
-                            <td>R$ 4,80</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="2">Médio</td>
-                            <td>Mollis</td>
-                            <td><img src="imgs/products/pq_emb_medio1.png" alt=""></td>
-                            <td>R$ 6,90</td>
-                        </tr>
-                        <tr>
-                            <td>Nunc</td>
-                            <td><img src="imgs/products/pq_emb_medio2.png" alt=""></td>
-                            <td>R$ 3,90</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="2">Grande</td>
-                            <td>Licinia</td>
-                            <td><img src="imgs/products/pq_emb_grande1.png" alt=""></td>
-                            <td>R$ 6,90</td>
-                        </tr>
-                        <tr>
-                            <td>Sapien</td>
-                            <td><img src="imgs/products/pq_emb_grande2.png" alt=""></td>
-                            <td>R$ 3,90</td>
-                        </tr>
-                    <tfoot>
-                        <tr>
-                            <td colspan="4">Consulte nossos preços para grandes quantidades</td>
-                        </tr>
-                    </tfoot>
-                    </tbody>
-                </table>
-                <table border="1">
-                    <caption>Produtos</caption>
-                    <thead>
-                        <tr>
-                            <th>Porte</th>
-                            <th colspan="2">Marca</th>
-                            <th>Preço</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td rowspan="2">Coleiras</td>
-                            <td>Coleira Vermelha</td>
-                            <td><img src="imgs/products/coleira-vermelha.jpeg" alt=""></td>
-                            <td>R$ 7,00</td>
-                        </tr>
-                        <tr>
-                            <td>Coleira Preta</td>
-                            <td><img src="imgs/products/coleira-preta.jpg" alt=""></td>
-                            <td>R$ 4,80</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="2">Brinquedos</td>
-                            <td>Galinha</td>
-                            <td><img src="imgs/products/galinha-brinquedo.jpeg" alt=""></td>
-                            <td>R$ 6,90</td>
-                        </tr>
-                        <tr>
-                            <td>Bolinha</td>
-                            <td><img src="imgs/products/bolinha-brinquedo.jpeg" alt=""></td>
-                            <td>R$ 3,90</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="2">Cosméticos</td>
-                            <td>Shampoo 200ml</td>
-                            <td><img src="imgs/products/shampoo-cachorro.jpeg" alt=""></td>
-                            <td>R$ 6,90</td>
-                        </tr>
-                        <tr>
-                            <td>Perfume 50ml</td>
-                            <td><img src="imgs/products/perfume-cachorro.jpg" alt=""></td>
-                            <td>R$ 3,90</td>
-                        </tr>
-                    <tfoot>
-                        <tr>
-                            <td colspan="4">Consulte nossos preços para grandes quantidades</td>
-                        </tr>
-                    </tfoot>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</body>
+      <div class="return-to-home">
+        <p><a href="index.html"> Voltar | Home > Quem Somos</a></p>
+      </div>
+      <div class="content-centralized">
+        <div class="about-products-section">
+          <table border="1">
+            <caption>
+              Ração
+            </caption>
+            <thead>
+              <tr>
+                <th>Porte</th>
+                <th colspan="2">Marca</th>
+                <th>Preço</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">Pequeno</td>
+                <td>Vestibulum</td>
+                <td><img src="imgs/products/p-emb-pequeno1.jpg" alt="#" /></td>
+                <td>R$ 5,00</td>
+              </tr>
+              <tr>
+                <td>Nunc</td>
+                <td><img src="imgs/products/p-emb-pequeno2.jpg" alt="#" /></td>
+                <td>R$ 4,80</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Médio</td>
+                <td>Mollis</td>
+                <td><img src="imgs/products/p-emb-medio1.jpg" alt="#" /></td>
+                <td>R$ 6,90</td>
+              </tr>
+              <tr>
+                <td>Nunc</td>
+                <td><img src="imgs/products/p-emb-medio2.jpg" alt="#" /></td>
+                <td>R$ 3,90</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Grande</td>
+                <td>Licinia</td>
+                <td><img src="imgs/products/p-emb-grande1.jpg" alt="#" /></td>
+                <td>R$ 6,90</td>
+              </tr>
+              <tr>
+                <td>Sapien</td>
+                <td><img src="imgs/products/p-emb-grande2.jpg" alt="#" /></td>
+                <td>R$ 3,90</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4">
+                  Consulte nossos preços para grandes quantidades
+                </td>
+              </tr>
+            </tfoot>
+          </table>
 
+          <table border="1">
+            <caption>
+              Produtos
+            </caption>
+            <thead>
+              <tr>
+                <th>Porte</th>
+                <th colspan="2">Marca</th>
+                <th>Preço</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">Coleiras</td>
+                <td>Coleira Vermelha</td>
+                <td>
+                  <img src="imgs/products/p-coleira-vermelha.jpg" alt="#" />
+                </td>
+                <td>R$ 7,00</td>
+              </tr>
+              <tr>
+                <td>Coleira Preta</td>
+                <td><img src="imgs/products/p-coleira-preta.jpg" alt="#" /></td>
+                <td>R$ 4,80</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Brinquedos</td>
+                <td>Galinha</td>
+                <td>
+                  <img src="imgs/products/p-galinha-brinquedo.jpg" alt="#" />
+                </td>
+                <td>R$ 6,90</td>
+              </tr>
+              <tr>
+                <td>Bolinha</td>
+                <td><img src="imgs/products/p-bolinha.jpg" alt="#" /></td>
+                <td>R$ 3,90</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Cosméticos</td>
+                <td>Shampoo 200ml</td>
+                <td>
+                  <img src="imgs/products/p-shampoo-cachorro.jpg" alt="#" />
+                </td>
+                <td>R$ 6,90</td>
+              </tr>
+              <tr>
+                <td>Perfume 50ml</td>
+                <td>
+                  <img src="imgs/products/p-perfume-cachorro.jpg" alt="#" />
+                </td>
+                <td>R$ 3,90</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4">
+                  Consulte nossos preços para grandes quantidades
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

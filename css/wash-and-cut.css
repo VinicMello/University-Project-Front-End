@@ -1,81 +1,58 @@
 .about-fill-in h1,
 .about-fill-in h3 {
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    color: var(--cor-fonte-destaque);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  color: var(--cor-fonte-destaque);
 }
 
 .about-fill-in-div {
-    padding: 4px;
-    margin-bottom: 10px;
+  padding: 4px;
+  margin-bottom: 10px;
 }
 
 .about-fill-in-div p {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .about-fill-in-div input[type="text"],
-.about-fill-in-div input[type="email"] {
-    width: 80%;
-    padding: 8px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
+.about-fill-in-div input[type="email"],
+.about-fill-in-div input[type="time"],
+.about-fill-in-div textarea,
+.about-fill-in-div select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 10px; /* Adicionado para espaçamento uniforme */
 }
 
 .about-fill-in-div input[type="radio"] {
-    margin-right: 7px;
-}
-
-.about-fill-in-div textarea {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
-.about-fill-in-div select {
-    width: 30%;
-    padding: 6px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-.about-fill-in-div input[type="time"] {
-    width: 10%;
-    padding: 6px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+  margin-right: 7px;
 }
 
 .about-fill-in-submit {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .about-fill-in-submit input[type="submit"] {
-    background-color: var(--cor-principal);
-    color: white;
-    padding: 10px 20px;
-    font-size: 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: var(--cor-principal);
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .about-fill-in fieldset {
-    margin-bottom: 25px;
-    font-size: 22px;
+  margin-bottom: 25px;
+  font-size: 22px;
 }
 
 .about-fill-in legend {
-    color: var(--cor-principal);
+  color: var(--cor-principal);
 }
