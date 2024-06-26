@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--cor-branca);
+  background-color: var(--white);
   padding: 20px;
 }
 
 .about-curiosity h1 {
-  color: var(--cor-fonte-destaque);
+  color: var(--font-color-highlight);
   font-size: 40px;
   padding: 10px 0;
 }

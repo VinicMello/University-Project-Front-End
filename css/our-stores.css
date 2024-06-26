@@ -18,7 +18,7 @@
 }
 
 .about-stores-description h4 {
-  color: var(--cor-fonte-destaque);
+  color: var(--font-color-highlight);
 }
 
 .about-stores-description ul li {

@@ -4,13 +4,13 @@
 }
 
 .about-us-section h1 {
-  color: var(--cor-fonte-destaque);
+  color: var(--font-color-highlight);
   font-size: 25px;
   padding: 12px 0;
 }
 
 .about-us-section h3 {
-  color: var(--cor-fonte-destaque);
+  color: var(--font-color-highlight);
   font-size: 25px;
   padding: 10px 0;
 }
