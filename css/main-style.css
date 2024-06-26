@@ -2,24 +2,24 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: var(--font-default), sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Variáveis de cores e fontes */
 :root {
-  --cor-de-fundo: #f2f2f2;
-  --cor-principal: #009688;
-  --cor-branca: #ffffff;
-  --cor-borda: #d9d9d9;
-  --cor-fonte-destaque: #ff5f5d;
-  --cor-fonte-opcoes: #747e7e;
-  --cor-preta: black;
-  --font-default: "Roboto";
+  --background-color: #f2f2f2;
+  --primary: #009688;
+  --white: #ffffff;
+  --border-color: #d9d9d9;
+  --font-color-highlight: #ff5f5d;
+  --font-color-2-op: #747e7e;
+  --black: black;
+  --font-default: "sans-serif";
 }
 
 /* Corpo da página */
 body {
-  background-color: var(--cor-de-fundo);
+  background-color: var(--background-color);
 }
 
 /* Cabeçalho (Header) */
@@ -29,15 +29,15 @@ body {
   justify-content: center;
   height: 4vh;
   font-size: 20px;
-  background-color: var(--cor-principal);
-  color: var(--cor-branca);
+  background-color: var(--primary);
+  color: var(--white);
   padding: 7px;
 }
 
 .header-main {
   display: flex;
   height: 9vh;
-  background-color: var(--cor-branca);
+  background-color: var(--white);
   justify-content: space-evenly;
 }
 
@@ -57,7 +57,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  color: var(--cor-fonte-destaque);
+  color: var(--font-color-highlight);
 }
 
 .header-main-logo-section-title p {
@@ -95,7 +95,7 @@ body {
 
 .header-main-options-section a {
   text-decoration: none;
-  color: var(--cor-fonte-opcoes);
+  color: var(--font-color-2-op);
 }
 
 .header-main-options-section-info {
@@ -115,11 +115,23 @@ body {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  background-color: var(--cor-principal);
+  background-color: var(--primary);
 }
 
 .header-bottom img {
   width: 40px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 19px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--white);
 }
 
 /* Corpo centralizado das outras páginas */
@@ -141,27 +153,29 @@ body {
 
 .content-centralized {
   width: 70%;
-  background-color: var(--cor-branca);
+  background-color: var(--white);
   padding: 10px;
-  border: 1.5px solid var(--cor-borda);
+  border: 1.5px solid var(--border-color);
   border-radius: 8px;
+  margin-bottom: 30px;
 }
 
 .return-to-home {
   width: 70%;
   margin-top: 10px;
-  background-color: var(--cor-branca);
+  background-color: var(--white);
   padding: 10px;
   border-radius: 8px;
-  border: 1.5px solid var(--cor-borda);
+  border: 1.5px solid var(--border-color);
 }
 
 /* Conteúdo da página */
 .content-container {
-  background-color: var(--cor-principal);
+  background-color: var(--primary);
   width: 60%;
   height: 70%;
   border-radius: 25px 25px 0px 25px;
+  border: 0.7px solid var(--border-color);
 }
 
 .content-container img {
@@ -176,7 +190,6 @@ body {
 }
 
 .promotion-delivery-free {
-  border: 1px solid black;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -185,7 +198,6 @@ body {
 }
 
 .promotion-footter {
-  border: 1px solid black;
   width: 100%;
   height: 7vh;
   display: flex;
@@ -194,7 +206,8 @@ body {
 }
 
 .promotion-footter-divs {
-  border: 1px solid red;
+  color: var(--white);
+  border: 0.7px solid var(--border-color);
   border-radius: 15px 15px 0px 15px;
   display: flex;
   flex-direction: row;
@@ -204,7 +217,7 @@ body {
   font-size: 13.5px;
   padding: 6px;
   gap: 7px;
-  background-color: var(--cor-principal);
+  background-color: var(--primary);
 }
 
 .promotion-footter-divs img {
@@ -216,11 +229,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+
+.container-newsletter h4 {
+  color: var(--black);
+  font-size: 16px;
+  padding: 10px;
 }
 
 .about-newsletter {
-  background-color: var(--cor-branca);
-  border: solid 1.5px var(--cor-principal);
+  background-color: var(--white);
+  border: solid 1.5px var(--primary);
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -240,7 +261,6 @@ body {
   display: flex;
   gap: 15px;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .about-newsletter input[type="text"],
@@ -254,7 +274,7 @@ body {
 }
 
 .about-newsletter input[type="submit"] {
-  background-color: var(--cor-principal);
+  background-color: var(--primary);
   color: white;
   padding: 5px 10px;
   font-size: 15px;

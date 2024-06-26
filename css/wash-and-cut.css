@@ -3,7 +3,7 @@
   padding: 15px;
   display: flex;
   justify-content: center;
-  color: var(--cor-fonte-destaque);
+  color: var(--font-color-highlight);
 }
 
 .about-fill-in-div {
@@ -39,8 +39,8 @@
 }
 
 .about-fill-in-submit input[type="submit"] {
-  background-color: var(--cor-principal);
-  color: white;
+  background-color: var(--primary);
+  color: var(--white);
   padding: 10px 20px;
   font-size: 20px;
   border: none;
@@ -54,5 +54,5 @@
 }
 
 .about-fill-in legend {
-  color: var(--cor-principal);
+  color: var(--primary);
 }

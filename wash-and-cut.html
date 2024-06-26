@@ -1,231 +1,314 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main-style.css" />
-    <link rel="stylesheet" href="css/wash-and-cut.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <title>Meu amigo cão - Petshop</title>
-  </head>
 
-  <body>
-    <header>
-      <div class="header-top">
-        <h3>Meu amigo cão, Os serviços que você precisa para o seu pet!</h3>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main-style.css" />
+  <link rel="stylesheet" href="css/wash-and-cut.css" />
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <title>Meu amigo cão - Petshop</title>
+</head>
 
-      <div class="header-main">
-        <div class="header-main-logo-section">
-          <img
-            src="imgs/header/h-meu_amigo_cao_oficial.png"
-            alt="logo oficial meu amigo cão"
-          />
-          <div class="header-main-logo-section-title">
-            <h1>Meu Amigo Cão</h1>
-            <p>Petshop</p>
-          </div>
-        </div>
-        <div class="header-main-input-search">
-          <input
-            type="text"
-            id="#"
-            name="#"
-            placeholder="O que você procura?"
-          />
-          <img src="imgs/header/h-search.png" alt="#" />
-        </div>
-        <div class="header-main-options-section">
-          <div class="header-main-options-section-info">
-            <img src="imgs/header/h-atendimento.png" alt="imagem atendimento" />
-            <a href="#">Atendimento</a>
-          </div>
-          <div class="header-main-options-section-info">
-            <img src="imgs/header/h-usuario.png" alt="imagem usuario" />
-            <a href="sign-in.html">Entre ou Cadastra-se</a>
-          </div>
-          <div class="header-main-options-section-info">
-            <img src="imgs/header/h-carrinho.png" alt="imagem carrinho" />
-            <a href="#">Seu Carrinho</a>
-          </div>
-        </div>
-      </div>
-      <div class="header-bottom">
-        <div class="nav-item">
-          <img src="imgs/main/m-about-us.png" alt="#" />
-          <a href="about-us.html">Quem Somos</a>
-        </div>
-        <div class="nav-item">
-          <img src="imgs/main/m-our-stores.png" alt="#" />
-          <a href="our-stores.html">Nossas lojas</a>
-        </div>
-        <div class="nav-item">
-          <img src="imgs/main/m-wash-and-cut.png" alt="#" />
-          <a href="wash-and-cut.html">Banho e Tosa</a>
-        </div>
-        <div class="nav-item">
-          <img src="imgs/main/m-products.png" alt="#" />
-          <a href="sell-products.html">Produtos</a>
-        </div>
-        <div class="nav-item">
-          <img src="imgs/main/m-curiosity.png" alt="#" />
-          <a href="curiosity.html">Curiosidades</a>
-        </div>
-      </div>
-    </header>
+<body>
+  <header>
+    <div class="header-top">
+      <h3>Meu amigo cão, Os serviços que você precisa para o seu pet!</h3>
+    </div>
 
-    <div class="main-body-content">
-      <div class="return-to-home">
-        <p><a href="index.html"> Voltar | Home > Quem Somos</a></p>
+    <div class="header-main">
+      <div class="header-main-logo-section">
+        <img src="imgs/header/h-meu_amigo_cao_oficial.png" alt="logo oficial meu amigo cão" />
+        <div class="header-main-logo-section-title">
+          <h1>Meu Amigo Cão</h1>
+          <p>Petshop</p>
+        </div>
       </div>
-      <div class="content-centralized">
-        <div class="about-fill-in">
-          <h1>Agendamento para banho e tosa</h1>
-          <h3>
-            Faça o seu agendamento com pelo menos 48 horas de antecedência
-          </h3>
-          <form action="">
-            <fieldset>
-              <legend>Informações do dono</legend>
-              <div class="about-fill-in-div">
-                <label for="name">Nome:</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="nome"
-                  placeholder="Digite o nome completo do dono"
-                />
-              </div>
-              <div class="about-fill-in-div">
-                <label for="address">Endereço:</label>
-                <input
-                  type="text"
-                  id="address"
-                  name="endereco"
-                  placeholder="Digite o endereço completo"
-                />
-              </div>
-              <div class="about-fill-in-div">
-                <label for="cep">CEP:</label>
-                <input
-                  type="text"
-                  id="cep"
-                  name="cep"
-                  placeholder="Digite o CEP"
-                />
-              </div>
-              <div class="about-fill-in-div">
-                <label for="email">E-mail:</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Digite o E-mail"
-                />
-              </div>
-              <div class="about-fill-in-div">
-                <label for="telephone">Tel/Cel:</label>
-                <input
-                  type="text"
-                  id="telephone"
-                  name="telefone"
-                  placeholder="(XXX)99999-9999"
-                />
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend>Informações do seu melhor amigo</legend>
-              <div class="about-fill-in-div">
-                <label for="nome">Nome:</label>
-                <input
-                  type="text"
-                  id="name-dog"
-                  name="nome"
-                  placeholder="Nome do seu melhor amigo"
-                />
-              </div>
-              <div class="about-fill-in-div">
-                <label for="">Porte do Cão:</label>
-                <label>
-                  <input type="radio" id="nome" name="nome" /> Pequeno
-                </label>
-                <label>
-                  <input type="radio" id="nome" name="nome" /> Médio
-                </label>
-                <label>
-                  <input type="radio" id="nome" name="nome" /> Grande
-                </label>
-              </div>
-              <div class="about-fill-in-div">
-                <label>
-                  Tipo de tosa:
-                  <select id="opcoes" name="opcoes">
-                    <option value="opcao1">Opção 1</option>
-                    <option value="opcao2">Opção 2</option>
-                    <option value="opcao3">Opção 3</option>
-                  </select>
-                </label>
-              </div>
-              <div class="about-fill-in-div">
-                <label>
-                  Observação:
-                  <textarea
-                    rows="2"
-                    style="width: 26em"
-                    id="experiencia"
-                    name="experiencia"
-                  ></textarea>
-                </label>
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend>
-                Horário - Obs: Não atendemos aos domingos e às segundas-feiras
-              </legend>
-              <div class="about-fill-in-div">
-                <p>Indique os dias da semana de sua preferência:</p>
-                <label>
-                  <input type="radio" id="nome" name="nome" /> Terça-Feira
-                </label>
-                <label>
-                  <input type="radio" id="nome" name="nome" /> Quarta-Feira
-                </label>
-                <label>
-                  <input type="radio" id="nome" name="nome" /> Quinta-Feira
-                </label>
-                <label>
-                  <input type="radio" id="nome" name="nome" /> Sexta-Feira
-                </label>
-                <label>
-                  <input type="radio" id="nome" name="nome" /> Sabado
-                </label>
-              </div>
-              <div class="about-fill-in-div">
-                <label for="">
-                  Primeira opção de horário:
-                  <input type="time" />
-                </label>
-              </div>
-              <div class="about-fill-in-div">
-                <label for="">
-                  Segunda opção de horário:
-                  <input type="time" />
-                </label>
-              </div>
-            </fieldset>
-          </form>
-          <div class="about-fill-in-submit">
-            <input type="submit" value="Enviar" />
-          </div>
+      <div class="header-main-input-search">
+        <input type="text" id="#" name="#" placeholder="O que você procura?" />
+        <img src="imgs/header/h-search.png" alt="#" />
+      </div>
+      <div class="header-main-options-section">
+        <div class="header-main-options-section-info">
+          <img src="imgs/header/h-atendimento.png" alt="imagem atendimento" />
+          <a href="#">Atendimento</a>
+        </div>
+        <div class="header-main-options-section-info">
+          <img src="imgs/header/h-usuario.png" alt="imagem usuario" />
+          <a href="sign-in.html">Entre ou Cadastra-se</a>
+        </div>
+        <div class="header-main-options-section-info">
+          <img src="imgs/header/h-carrinho.png" alt="imagem carrinho" />
+          <a href="#">Seu Carrinho</a>
         </div>
       </div>
     </div>
-    <script src="js/script-wash-and-cut.js"></script>
-  </body>
+    <div class="header-bottom">
+      <div class="nav-item">
+        <img src="imgs/main/m-about-us.png" alt="#" />
+        <a href="about-us.html">Quem Somos</a>
+      </div>
+      <div class="nav-item">
+        <img src="imgs/main/m-our-stores.png" alt="#" />
+        <a href="our-stores.html">Nossas lojas</a>
+      </div>
+      <div class="nav-item">
+        <img src="imgs/main/m-wash-and-cut.png" alt="#" />
+        <a href="wash-and-cut.html">Banho e Tosa</a>
+      </div>
+      <div class="nav-item">
+        <img src="imgs/main/m-products.png" alt="#" />
+        <a href="sell-products.html">Produtos</a>
+      </div>
+      <div class="nav-item">
+        <img src="imgs/main/m-curiosity.png" alt="#" />
+        <a href="curiosity.html">Curiosidades</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-body-content">
+    <div class="return-to-home">
+      <p><a href="index.html"> Voltar | Home > Banho e Tosa</a></p>
+    </div>
+    <div class="content-centralized">
+      <div class="about-fill-in">
+        <h1>Agendamento para banho e tosa</h1>
+        <h3>
+          Faça o seu agendamento com pelo menos 48 horas de antecedência
+        </h3>
+        <form action="">
+          <fieldset>
+            <legend>Informações do dono</legend>
+            <div class="about-fill-in-div">
+              <label for="name">Nome:</label>
+              <input type="text" id="name" name="nome" placeholder="Digite o nome completo do dono" />
+            </div>
+            <div class="about-fill-in-div">
+              <label for="address">Endereço:</label>
+              <input type="text" id="address" name="endereco" placeholder="Digite o endereço completo" />
+            </div>
+            <div class="about-fill-in-div">
+              <label for="cep">CEP:</label>
+              <input type="text" id="cep" name="cep" placeholder="Digite o CEP" />
+            </div>
+            <div class="about-fill-in-div">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" placeholder="Digite o E-mail" />
+            </div>
+            <div class="about-fill-in-div">
+              <label for="telephone">Tel/Cel:</label>
+              <input type="text" id="telephone" name="telefone" placeholder="(XXX)99999-9999" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Informações do seu melhor amigo</legend>
+            <div class="about-fill-in-div">
+              <label for="nome">Nome:</label>
+              <input type="text" id="name-dog" name="nome" placeholder="Nome do seu melhor amigo" />
+            </div>
+            <div class="about-fill-in-div">
+              <label for="">Porte do Cão:</label>
+              <label>
+                <input type="radio" id="nome" name="nome" /> Pequeno
+              </label>
+              <label>
+                <input type="radio" id="nome" name="nome" /> Médio
+              </label>
+              <label>
+                <input type="radio" id="nome" name="nome" /> Grande
+              </label>
+            </div>
+            <div class="about-fill-in-div">
+              <label>
+                Tipo de tosa:
+                <select id="opcoes" name="opcoes">
+                  <option value="opcao1">Opção 1</option>
+                  <option value="opcao2">Opção 2</option>
+                  <option value="opcao3">Opção 3</option>
+                </select>
+              </label>
+            </div>
+            <div class="about-fill-in-div">
+              <label>
+                Observação:
+                <textarea rows="2" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>
+              Horário - Obs: Não atendemos aos domingos e às segundas-feiras
+            </legend>
+            <div class="about-fill-in-div">
+              <p>Indique os dias da semana de sua preferência:</p>
+              <label>
+                <input type="radio" id="nome" name="nome" /> Terça-Feira
+              </label>
+              <label>
+                <input type="radio" id="nome" name="nome" /> Quarta-Feira
+              </label>
+              <label>
+                <input type="radio" id="nome" name="nome" /> Quinta-Feira
+              </label>
+              <label>
+                <input type="radio" id="nome" name="nome" /> Sexta-Feira
+              </label>
+              <label>
+                <input type="radio" id="nome" name="nome" /> Sabado
+              </label>
+            </div>
+            <div class="about-fill-in-div">
+              <label for="">
+                Primeira opção de horário:
+                <input type="time" />
+              </label>
+            </div>
+            <div class="about-fill-in-div">
+              <label for="">
+                Segunda opção de horário:
+                <input type="time" />
+              </label>
+            </div>
+          </fieldset>
+        </form>
+        <div class="about-fill-in-submit">
+          <input type="submit" value="Enviar" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-wrapper">
+
+      <div class="social-wrapper">
+        <div class='social-links'>
+          <ul>
+            <li>
+              <a href="#" title="Instagram">
+                <img src="assets/instagram.svg" alt='Instagram'>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="Linkedin">
+                <img src="assets/linkedin.svg" alt='Linkedin'>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="Twitter">
+                <img src="assets/twitter.svg" alt='Twitter'>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-columns">
+        <div class="footer-links">
+          <div class="footer-logo">
+            <img src="imgs/footer/f-meu_amigo_cao_oficial.png" alt="#">
+          </div>
+          <section>
+            <h3>Sobre nós</h3>
+            <ul>
+              <li>
+                <a href="#" title="Quem Somos">Quem Somos</a>
+              </li>
+              <li>
+                <a href="#" title="Nossas Lojas">Nossas Lojas</a>
+              </li>
+              <li>
+                <a href="#" title="Eventos">Eventos</a>
+              </li>
+              <li>
+                <a href="#" title="Trabalhe Conosco">Trabalhe Conosco</a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Dúvidas</h3>
+            <ul>
+              <li>
+                <a href="#" title="Atendimento">Atendimento</a>
+              </li>
+              <li>
+                <a href="#" title="Regulamentos">Regulamentos</a>
+              </li>
+              <li>
+                <a href="#" title="Newsletter">Newsletter</a>
+              </li>
+              <li>
+                <a href="#" title="Política de Entrega">Política de Entregas</a>
+              </li>
+              <li>
+                <a href="#" title="Política de Privacidade">Política de Privacidade</a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Serviços Pet</h3>
+            <ul>
+              <li>
+                <a href="#" title="Banho e Tosa">Banho e Tosa</a>
+              </li>
+              <li>
+                <a href="#" title="Veterinário">Veterinário</a>
+              </li>
+              <li>
+                <a href="#" title="Hospedagem Pet">Hospedagem Pet</a>
+              </li>
+              <li>
+                <a href="#" title="Personal Pet">Personal Pet</a>
+              </li>
+              <li>
+                <a href="#" title="Adoção">Adoção</a>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Especiais</h3>
+            <ul>
+              <li>
+                <a href="#" title="Cupom de Desconto">
+                  Cupom de Desconto
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Black Friday">
+                  Black Friday
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Cookies">
+                  Cookies
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Licenças">
+                  Licenças
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-description">
+          <h3>Cuide do seu melhor amigo!</h3>
+          <p>Os melhores serviços para seu pet
+          <p>
+        </div>
+        <small>© Meu Amigo Cão PetShop</small>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script-wash-and-cut.js"></script>
+</body>
+
 </html>
